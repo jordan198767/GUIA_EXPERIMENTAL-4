@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analizador de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📊 Analizador de Texto</h1>
+        <p>Fundamentos de Programación - Procesamiento de Texto</p>
+        
+        <div class="input-section">
+            <textarea id="textInput" placeholder="Escribe tu texto aquí...">Hola Mundo.
+Tengo 2 perros y 1 gato.
+Ellos son felices!</textarea>
+        </div>
+
+        <div class="controls">
+            <button onclick="analizarTodo()">📈 Analizar Todo</button>
+            <button onclick="limpiarResultados()">🗑️ Limpiar</button>
+        </div>
+
+        <div class="results" id="results">
+            <!-- Los resultados aparecerán aquí -->
+        </div>
+    </div>
+
+    <script src="funciones.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
